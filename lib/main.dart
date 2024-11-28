@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'screens/home_screen.dart';
 import 'screens/activities_screen.dart';
 import 'screens/activity_detail_screen.dart';
+import 'screens/add_activity_screen.dart';
 import 'screens/volunteers_screen.dart';
 import 'screens/profile_screen.dart';
 // import 'screens/statistics_screen.dart';
@@ -33,6 +34,7 @@ class MyApp extends StatelessWidget {
         '/': (ctx) => const HomeScreen(),
         ActivitiesScreen.routeName: (ctx) => const ActivitiesScreen(),
         ActivityDetailScreen.routeName: (ctx) => const ActivityDetailScreen(),
+        AddActivityScreen.routeName: (ctx) => const AddActivityScreen(),
         VolunteersScreen.routeName: (ctx) => const VolunteersScreen(),
         ProfileScreen.routeName: (ctx) => const ProfileScreen(),
         // StatisticsScreen.routeName: (ctx) => StatisticsScreen(),

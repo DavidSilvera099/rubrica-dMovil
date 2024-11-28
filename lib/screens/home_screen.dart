@@ -125,7 +125,7 @@ class HomeScreenState extends State<HomeScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Navigate to add activity or volunteer
+          Navigator.pushNamed(context, '/add-activity');
         },
         child: const Icon(Icons.add),
       ),
