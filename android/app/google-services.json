@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1002875847037",
+    "project_id": "rubrica-c3-dmovil",
+    "storage_bucket": "rubrica-c3-dmovil.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002875847037:android:08fa9b3fb4621f211d0c14",
+        "android_client_info": {
+          "package_name": "com.example.rub_corte_3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAomf8ZkyaLLFw227-J4gYveHazZliEL98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
