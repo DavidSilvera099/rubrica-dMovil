@@ -11,8 +11,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^2.18.0
-  firebase_auth: ^4.6.0
+  firebase_core: ^2.10.0  # Verifica si tienes la versión correcta de firebase_core
+  cloud_firestore: ^4.10.0  # Asegúrate de usar una versión compatible de cloud_firestore
+  firebase_auth: ^4.5.0    # Si no lo tienes, también debes agregar firebase_auth
+  firebase_auth_web: ^5.8.14
 
 
 dev_dependencies:
